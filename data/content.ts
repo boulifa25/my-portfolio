@@ -150,8 +150,8 @@ export const projects = [
     summary:
       "Site catalogue de produits de sécurité incendie avec CMS sur mesure : produits, catégories et sous-catégories, fiches techniques PDF, textes du site et messages de contact. Back-end migré de Spring Boot vers un CMS PHP + SQLite pour tourner sur un hébergement mutualisé, avec reprise de tout le contenu et des comptes existants.",
     stack: ["Angular 20", "PHP 8", "SQLite", "Spring Boot", "API REST"],
-    status: "Livré",
-    href: "",
+    status: "En ligne",
+    href: "https://selectfire.osolutions-agency.com/",
   },
   {
     name: "Context Plus",
