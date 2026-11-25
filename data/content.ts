@@ -134,6 +134,36 @@ export const education = [
 
 export const projects = [
   {
+    name: "Coreme",
+    year: "2026",
+    context: "Freelance — carrossier industriel, Ben Arous",
+    summary:
+      "Site vitrine et outil de gestion pour un carrossier de camions. Côté public : catalogue produits, galerie de réalisations filtrable par type de carrosserie et marque de châssis, demande de devis avec photos. Côté admin : CMS complet, suivi des devis et des clients, suivi atelier par étapes, pointage des ouvriers, paie mensuelle et congés.",
+    stack: ["Next.js 16", "TypeScript", "Neon Postgres", "Drizzle ORM", "Vercel Blob", "Nodemailer"],
+    status: "En ligne",
+    href: "https://coreme-site-kohl.vercel.app",
+  },
+  {
+    name: "SelectFire Plus",
+    year: "2026",
+    context: "Freelance — produits de sécurité incendie, Royaume-Uni",
+    summary:
+      "Site catalogue de produits de sécurité incendie avec CMS sur mesure : produits, catégories et sous-catégories, fiches techniques PDF, textes du site et messages de contact. Back-end migré de Spring Boot vers un CMS PHP + SQLite pour tourner sur un hébergement mutualisé, avec reprise de tout le contenu et des comptes existants.",
+    stack: ["Angular 20", "PHP 8", "SQLite", "Spring Boot", "API REST"],
+    status: "Livré",
+    href: "",
+  },
+  {
+    name: "Context Plus",
+    year: "2026",
+    context: "Freelance — fabricant d'alarmes incendie, Royaume-Uni",
+    summary:
+      "Refonte du site d'un fabricant d'alarmes incendie : catalogue de 296 produits, recherche avec suggestions, fiches produit à onglets et aperçu des PDF. Rendu SEO côté serveur (meta, JSON-LD, sitemap) et CMS PHP + SQLite avec administration Angular, modifications en ligne sans reconstruction.",
+    stack: ["Angular 21", "PHP 8", "SQLite", "SEO / JSON-LD"],
+    status: "Livré",
+    href: "",
+  },
+  {
     name: "StageIA",
     year: "2026",
     context: "Projet académique",
