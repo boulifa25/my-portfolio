@@ -1,0 +1,16 @@
+# dépendances
+node_modules
+
+# build Next.js
+.next
+out
+tsconfig.tsbuildinfo
+next-env.d.ts
+
+# Vercel & secrets
+.vercel
+.env*
+
+# local
+.claude
+apercu-portfolio.html
